@@ -23,6 +23,7 @@ const foodSchmea = new mongoose.Schema({
     }
 })
 
+
 const foodModel = mongoose.model("food",foodSchmea);
 
 
